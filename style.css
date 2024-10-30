@@ -51,10 +51,11 @@ footer {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    color: #f4f4f4;
 }
 
 h1 {
-    color: #333;
+    color: #f4f4f4;
 }
 
 p {
