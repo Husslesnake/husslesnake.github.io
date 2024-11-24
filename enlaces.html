@@ -3,42 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Neon Genesis Evangelion">    
+    <meta name="description" content="Neon Genesis Evangelion: Información y enlaces interesantes relacionados con la serie y otros temas.">
     <link rel="canonical" href="https://husslesnake.github.io">
     <title>Neon Genesis Evangelion</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <script src="script.js"></script>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <header>    
+    <header>
         <div class="container">
             <h1>Neon Genesis Evangelion</h1>
         </div>
     </header>
 
     <main>
-        <button class="btn-flotante" onclick="toggleMenu()">
-            <img src="images/favicon.ico" alt="Botón flotante">
+        <button class="btn-flotante" aria-label="Abrir menú" onclick="toggleMenu()">
+            <img src="images/favicon.ico" alt="Abrir menú">
         </button>
-        <div id="dropdownMenu" class="dropdown-content">
-            <a href="index.html">Home</a>
-            <a href="#section2">Section 2</a>
-            <a href="enlaces.html">Enlaces</a>
-        </div>
+        <nav id="dropdownMenu" class="dropdown-content" aria-hidden="true">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galería de imágenes</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+            </ul>
+        </nav>
         <div class="container">
-            <h2>Enlaces a páginas chulas</h2>
-            <li><a href="https://nayyyra.github.io">Todo lo que debes saber de psicología</a></li>
-            <li><a href="https://fhiros.github.io">DEFINITIVE GUITAR</a></li>
-            <li><a href="https://marialobominguez.github.io">Los Warren: Biografía, películas y casos donde se han implicado</a></li>
-            <li><a href="https://sram505.github.io">Guía anime</a></li>                
+            <h2>Enlaces a páginas interesantes</h2>
+            <ul>
+                <li><a href="https://nayyyra.github.io" target="_blank" rel="noopener noreferrer">Todo lo que debes saber de psicología</a></li>
+                <li><a href="https://fhiros.github.io" target="_blank" rel="noopener noreferrer">DEFINITIVE GUITAR</a></li>
+                <li><a href="https://marialobominguez.github.io" target="_blank" rel="noopener noreferrer">Los Warren: Biografía, películas y casos donde se han implicado</a></li>
+                <li><a href="https://sram505.github.io" target="_blank" rel="noopener noreferrer">Guía anime</a></li>
+            </ul>
         </div>
     </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Adrián Bravo Santos.</p>
-        </div>
-    </footer>
 </body>
 </html>

@@ -3,35 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Neon Genesis Evangelion">    
+    <meta name="description" content="Información sobre Neon Genesis Evangelion, una franquicia icónica de Gainax.">
     <link rel="canonical" href="https://husslesnake.github.io">
     <title>Neon Genesis Evangelion</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <script src="script.js"></script>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <header>    
-        <div class="container">
-            <h1>Neon Genesis Evangelion</h1>
-        </div>
+    <header>
+        <h1>Galería de Imágenes</h1>
     </header>
 
     <main>
-        <button class="btn-flotante" onclick="toggleMenu()">
-            <img src="images/favicon.ico" alt="Botón flotante">
-        </button>
-        <div id="dropdownMenu" class="dropdown-content">
-            <a href="index.html">Home</a>
-            <a href="galeria.html">Galería de imágenes</a>
-            <a href="enlaces.html">Enlaces</a>
-        </div>
+            <button class="btn-flotante" aria-label="Abrir menú" onclick="toggleMenu()">
+                <img src="images/favicon.ico" alt="Abrir menú">
+            </button>
+            <nav id="dropdownMenu" class="dropdown-content" aria-hidden="true">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="galeria.html">Galería de imágenes</a></li>
+                    <li><a href="enlaces.html">Enlaces</a></li>
+                </ul>
+            </nav>
+        <section class="gallery">
+            <img src="images/end-of-evangelion.webp" alt="End of Evangelion">
+            <img src="images/3qkmuyvnlbr91.webp" alt="3er Impacto">
+            <img src="images/maxresdefault.webp" alt="Evas">
+            <img src="images/evangelion.webp" alt="3er Impacto, Rei">
+            <img src="images/wnHcq5W.webp" alt="Película Evagelion 3.0">
+            <img src="images/neon-genesis-evangelion-unit-01-eats-zeruel.webp" alt="Eva-01 Despierta">
+            <img src="images/1_gjX4Sh1uOqS2atQZ1HlBMA.webp" alt="Forma de ángel de Rei">
+            <img src="images/images-w330.webp" alt="Shinji teniendo un episodio de locura">
+            <img src="images/eva-02-1920-x-1080-wallpaper-8fuu29l8frb0j7td.webp" alt="Asuka con el Eva-02">
+            <img src="images/rei-eva-00.webp" alt="Ayanami Rei en su Eva-00">
+            <img src="images/neonartwork.webp" alt="Panel del manga de Evangelion">
+            <img src="images/images.webp" alt="Eva-01 en su tanque">
+            <img src="images/Neon-Genesis-Evangelion-A-World-That-s-Ending-Shinji.webp" alt="Shinji teniendo otro episodio">
+            <img src="images/EoE.webp" alt="Shinji otra vez volviendose loco">
+            <img src="images/102699881_117250603349129_3919520484026317621_n.webp" alt="Rei en forma ángel con el Eva-01">
+            <img src="images/Neon-Genesis-Evangelion-The-End-of-Evangelion-Mass-Production-Units.webp" alt="Ángeles con la lanza de Adán">
+            <img src="images/Screen-Shot-2020-10-25-at-11.56.51-PM-e1699887322445.webp" alt="Eva-01 saliendo del ojo de Rei Ángel">
+            <img src="images/Gendo-Ikari-1.webp" alt="Gendo Ikari">
+            <img src="images/7jv5j7xwxqh71.webp" alt="Gendo Ikari en su forma de ángel">
+            <img src="images/kaworu-1.webp" alt="Kaworu">
+            <img src="images/lilith_rebuild.webp" alt="El 1er ángel, Lilith">
+            <img src="images/Fogata En La Playa.webp" alt="Atardecer con cadáveres de ángeles">
+            <img src="images/Kaworu.webp" alt="Shinji besándose con Kaworu">
+            <img src="images/Kaworu Nagisa_Gallery.webp" alt="Rei manifestándose en Kaworu para Shinji">
+            <img src="images/shinji (chihuahua).webp" alt="Shinji (chihuahua)">
+        </section>
     </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Adrián Bravo Santos.</p>
-        </div>
-    </footer>
 </body>
 </html>
