@@ -1,60 +1,66 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Información sobre Neon Genesis Evangelion, una franquicia icónica de Gainax.">
-    <meta  name="theme-color" content="#ff0000">
-    <meta name="robots" content="index,follow">
-    <link rel="canonical" href="https://husslesnake.github.io">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Información sobre Neon Genesis Evangelion, una franquicia icónica de Gainax." />
+    <meta name="theme-color" content="#ff0000" />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://husslesnake.github.io" />
     <title>Neon Genesis Evangelion</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <meta name="keywords" content="Neon Genesis Evangelion, evangelion, shinji, asuka, rei, ayanami, misato, gendo, ikari, eva, angeles, 
-    impacto, anime, manga">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <meta name="keywords"
+        content="Neon Genesis Evangelion, evangelion, shinji, asuka, rei, ayanami, misato, gendo, ikari, eva, angeles, impacto, anime, manga" />
     <script src="script.js" defer></script>
-        <script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "TVEpisode",
-  "partOfTVSeries": {
-    "@type": "TVSeries",
-    "name": "Neon Genesis Evangelion"
-  },
-  "episodeNumber": "Neon Genesis Evangelion"
-}
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Inicio",
-      "item": "https://husslesnake.github.io"
+
+    <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "TVEpisode",
+    "partOfTVSeries": {
+      "@type": "TVSeries",
+      "name": "Neon Genesis Evangelion"
     },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "index",
-      "item": "https://husslesnake.github.io/index.html"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Enlaces",
-      "item": "https://example.com/enlaces.html"
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "name": "Galería de imágenes",
-      "item": "https://example.com/galeria.html"
-    }
-  ]
-}
-</script>
+    "episodeNumber": "Neon Genesis Evangelion"
+  }
+  </script>
+
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Inicio",
+        "item": "https://husslesnake.github.io"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "index",
+        "item": "https://husslesnake.github.io/index.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Enlaces",
+        "item": "https://example.com/enlaces.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Galería de imágenes",
+        "item": "https://example.com/galeria.html"
+      }
+    ]
+  }
+  </script>
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -63,93 +69,42 @@
     </header>
 
     <main>
-        <button class="btn-flotante" aria-label="Menú flotante" onclick="toggleMenu()">
-            <img src="images/favicon.ico" alt="Ícono del menú flotante">
+        <button class="btn-flotante" aria-label="Abrir menú de navegación" aria-expanded="false" onclick="toggleMenu()"
+            id="menuToggle">
+            <img src="images/favicon.ico" alt="" role="presentation" />
         </button>
-        <div id="dropdownMenu" class="dropdown-content">
+
+        <nav id="dropdownMenu" class="dropdown-content" aria-label="Menú principal">
             <a href="index.html">Inicio</a>
             <a href="galeria.html">Galería</a>
             <a href="personajes.html">Personajes</a>
             <a href="enlaces.html">Enlaces</a>
-        </div>
-        <div class="coantiner">
+        </nav>
+        <div class="container">
             <h2>Neon Genesis Evangelion</h2>
-            <p>
-                <strong>Neon Genesis Evangelion (新世紀エヴァンゲリオン, Shin Seiki Evangerion)</strong>, creada por Hideaki
-                Anno y producida por Gainax en colaboración con Tatsunoko Production, es una serie que trasciende su
-                clasificación como anime de mechas para convertirse en un estudio profundo de la psique humana, la religión,
-                la filosofía y los dilemas existenciales. Estrenada en 1995, esta obra no solo redefinió el género,
-                sino que dejó una huella indeleble en la cultura popular y la narrativa visual contemporánea.
+            <p><strong>Neon Genesis Evangelion</strong> es una serie creada por Hideaki Anno y producida por Gainax, que
+                revolucionó el anime de mechas al combinar acción con exploraciones psicológicas, filosóficas y
+                religiosas profundas.</p>
+            <p>Ambientada en un mundo postapocalíptico tras el "Segundo Impacto", sigue a NERV, una organización que
+                combate a los Ángeles con unidades biomecánicas llamadas Evas, pilotadas por adolescentes como Shinji
+                Ikari.</p>
+            <p><strong>Elementos temáticos destacados:</strong></p>
+            <p><strong>1. Psicología y aislamiento:</strong> Los personajes enfrentan conflictos internos que reflejan
+                la lucha humana por la identidad y la conexión emocional, destacando el “dilema del erizo”.</p>
+            <p><strong>2. Simbolismo religioso:</strong> Utiliza referencias cristianas y místicas (como la Lanza de
+                Longinus o el Árbol de la Vida) como metáforas de temas existenciales.</p>
+            <p><strong>3. Metafísica y existencialismo:</strong> La serie cuestiona la naturaleza del "yo", el propósito
+                de la vida y la ambigüedad moral de sus personajes.</p>
+            <p>Visualmente innovadora, Evangelion emplea encuadres y silencios poco convencionales. Los últimos
+                episodios y la película <em>The End of Evangelion</em> ofrecen una introspección abstracta que dividió
+                opiniones, pero consolidó su estatus como obra de culto.</p>
+            <p>Ha influido en obras como <em>Puella Magi Madoka Magica</em>, <em>Attack on Titan</em> y <em>Darling in
+                    the Franxx</em>, dejando una marca profunda tanto en la narrativa como en la industria del anime.
             </p>
-            <p>
-                La serie está ambientada en un mundo postapocalíptico tras el "Segundo Impacto", un cataclismo global que
-                diezmó a gran parte de la humanidad. En este contexto, la organización paramilitar NERV es la última
-                línea de defensa contra los Ángeles, misteriosas entidades de origen desconocido que amenazan
-                con destruir lo que queda de la humanidad. Para enfrentarlos, NERV utiliza los Evas,colosales
-                unidades biomecánicas pilotadas por adolescentes elegidos, incluyendo al protagonista Shinji Ikari.
-                Aunque la trama comienza como un típico anime de acción con mechas, rápidamente evoluciona hacia una
-                introspección psicológica y filosófica, explorando los conflictos internos de sus personajes y desafiando
-                las convenciones narrativas.
-            </p>
-            <p>
-                <strong>Elementos Temáticos y Filosóficos:</strong>
-            </p>
-            <p>
-                <strong>1. Psicología y Aislamiento:</strong>
-            </p>
-            <p>
-                Cada personaje en Evangelion representa una faceta de la lucha humana con el
-                aislamiento y el miedo al rechazo. Shinji Ikari, el protagonista, encarna el "dilema del erizo" de Schopenhauer:
-                el deseo humano de conexión versus el temor a ser herido. Rei Ayanami, una figura casi inhumana, simboliza
-                la pérdida de identidad personal, mientras que Asuka Langley Soryu representa la fragilidad detrás de
-                una máscara de arrogancia y confianza. El creador, Hideaki Anno, volcó sus propias luchas con la depresión en los personajes, dándoles una
-                profundidad psicológica rara vez vista en el anime de la época.
-            </p>
-            <p>
-                <strong>2. Simbolismo Religioso:</strong>
-            </p>
-            <p>
-                La serie utiliza una densa iconografía religiosa, incorporando
-                elementos del cristianismo, el judaísmo y el misticismo. Conceptos como la Lanza de Longinus, el Árbol
-                de la Vida y los Manuscritos del Mar Muerto son utilizados no tanto por su significado literal, sino como
-                herramientas simbólicas para explorar temas de creación, sacrificio y trascendencia.
-            </p>
-            <p>
-                <strong>3. Metafísica y Existencialismo:</strong>
-            </p>
-            <p>
-                Evangelion aborda preguntas fundamentales sobre la existencia: ¿Qué define al "yo"? ¿Cómo se encuentra
-                sentido en un mundo indiferente? A medida que la narrativa avanza, la serie desmantela la estructura
-                tradicional de los héroes y villanos, presentando un universo donde las motivaciones de los
-                personajes y organizaciones son moralmente ambiguas.
-            </p>
-            <p>
-                El estilo visual de Evangelion es revolucionario, utilizando ángulos de cámara poco convencionales,
-                largas tomas de silencio y un diseño de producción que mezcla la tecnología futurista con un realismo crudo.
-                Las batallas entre los Evas y los Ángeles son impresionantes, pero están marcadas por una sensación de
-                vulnerabilidad y desesperación más que de glorificación heroica. En términos narrativos, los últimos
-                episodios de la serie, junto con la película The End of Evangelion, abandonan la acción externa para
-                enfocarse en una introspección psicológica abstracta. Este cambio polarizó a los espectadores, pero
-                consolidó a Evangelion como una obra que desafía las expectativas convencionales.
-            </p>
-            <p>
-                Neon Genesis Evangelion no solo redefinió el género de mechas; también inspiró a generaciones de creadores a
-                abordar temas psicológicos y filosóficos en sus obras. Su impacto se puede sentir en series como Puella
-                Magi Madoka Magica, Attack on Titan y Darling in the Franxx. La serie también tuvo un impacto significativo
-                en la industria del anime, revitalizando su popularidad en los años 90. Además, el éxito financiero de
-                la franquicia, que incluye películas, mangas, videojuegos y mercancía, la ha convertido en una de las
-                propiedades más rentables de la historia del anime.
-            </p>
-            <p>
-                Neon Genesis Evangelion es mucho más que un anime de mechas. Es una obra compleja y profundamente introspectiva
-                que invita a los espectadores a reflexionar sobre la naturaleza humana, la soledad y el propósito de la
-                vida. A través de su audaz narrativa, simbolismo y exploración de los rincones más oscuros de la mente,
-                Evangelion continúa siendo una obra de arte imprescindible para cualquier amante de la narrativa profunda
-                y desafiante.
-            </p>
+            <p><strong>Evangelion</strong> es mucho más que ciencia ficción: es una reflexión sobre la soledad, la
+                identidad y la condición humana.</p>
         </div>
     </main>
-
-
 </body>
+
 </html>

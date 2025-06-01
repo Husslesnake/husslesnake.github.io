@@ -1,70 +1,95 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Información sobre Neon Genesis Evangelion, una franquicia icónica de Gainax.">
-        <meta  name="theme-color" content="#ff0000">
-        <meta name="robots" content="index,follow">
-        <link rel="canonical" href="https://husslesnake.github.io">
-        <title>Neon Genesis Evangelion</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-        <meta name="keywords" content="Neon Genesis Evangelion, evangelion, shinji, asuka, rei, ayanami, misato, gendo, ikari, eva, angeles, 
-        impacto, anime, manga">
-        <script src="script.js" defer></script>
-        <script type="application/ld+json">
-            {
-              "@context": "http://schema.org",
-              "@type": "Article",
-              "name": "Galería de Imágenes",
-              "image": "https://husslesnake.github.io/images/3qkmuyvnlbr91.webp"
-            }
-            </script>
-    </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Información sobre Neon Genesis Evangelion, una franquicia icónica de Gainax." />
+  <meta name="theme-color" content="#ff0000" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://husslesnake.github.io" />
+  <title>Neon Genesis Evangelion - Galería</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <meta name="keywords"
+    content="Neon Genesis Evangelion, evangelion, shinji, asuka, rei, ayanami, misato, gendo, ikari, eva, angeles, impacto, anime, manga" />
+  <script src="script.js" defer></script>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "name": "Galería de Imágenes",
+      "image": "https://husslesnake.github.io/images/3qkmuyvnlbr91.webp"
+    }
+  </script>
+</head>
 
 <body>
-    <header>
-        <h1>Galería de Imágenes</h1>
-    </header>
+  <header>
+    <div class="container">
+      <h1>Galería de Imágenes</h1>
+    </div>
+  </header>
 
-    <main>
-            <button class="btn-flotante" aria-label="Abrir menú" onclick="toggleMenu()">
-                <img src="images/favicon.ico" alt="Abrir menú">
-            </button>
-                <div id="dropdownMenu" class="dropdown-content">
-                    <a href="index.html">Inicio</a>
-                    <a href="galeria.html">Galería</a>
-                    <a href="personajes.html">Personajes</a>
-                    <a href="enlaces.html">Enlaces</a>
-                </div>
-        <section class="gallery">
-            <img src="images/end-of-evangelion.webp" alt="End of Evangelion">
-            <img src="images/3qkmuyvnlbr91.webp" alt="3er Impacto">
-            <img src="images/maxresdefault.webp" alt="Evas">
-            <img src="images/evangelion.webp" alt="3er Impacto, Rei">
-            <img src="images/wnHcq5W.webp" alt="Película Evagelion 3.0">
-            <img src="images/neon-genesis-evangelion-unit-01-eats-zeruel.webp" alt="Eva-01 Despierta">
-            <img src="images/1_gjX4Sh1uOqS2atQZ1HlBMA.webp" alt="Forma de ángel de Rei">
-            <img src="images/images-w330.webp" alt="Shinji teniendo un episodio de locura">
-            <img src="images/eva-02-1920-x-1080-wallpaper-8fuu29l8frb0j7td.webp" alt="Asuka con el Eva-02">
-            <img src="images/rei-eva-00.webp" alt="Ayanami Rei en su Eva-00">
-            <img src="images/neonartwork.webp" alt="Panel del manga de Evangelion">
-            <img src="images/images.webp" alt="Eva-01 en su tanque">
-            <img src="images/Neon-Genesis-Evangelion-A-World-That-s-Ending-Shinji.webp" alt="Shinji teniendo otro episodio">
-            <img src="images/EoE.webp" alt="Shinji otra vez volviendose loco">
-            <img src="images/102699881_117250603349129_3919520484026317621_n.webp" alt="Rei en forma ángel con el Eva-01">
-            <img src="images/Neon-Genesis-Evangelion-The-End-of-Evangelion-Mass-Production-Units.webp" alt="Ángeles con la lanza de Adán">
-            <img src="images/Screen-Shot-2020-10-25-at-11.56.51-PM-e1699887322445.webp" alt="Eva-01 saliendo del ojo de Rei Ángel">
-            <img src="images/Gendo-Ikari-1.webp" alt="Gendo Ikari">
-            <img src="images/7jv5j7xwxqh71.webp" alt="Gendo Ikari en su forma de ángel">
-            <img src="images/kaworu-1.webp" alt="Kaworu">
-            <img src="images/lilith_rebuild.webp" alt="El 1er ángel, Lilith">
-            <img src="images/Fogata_en_La_playa.webp" alt="Atardecer con cadáveres de ángeles">
-            <img src="images/Kaworu.webp" alt="Shinji besándose con Kaworu">
-            <img src="images/Kaworu_Nagisa_Gallery.webp" alt="Rei manifestándose en Kaworu para Shinji">
-            <img src="images/shinji(chihuahua).webp" alt="Shinji (chihuahua)">
-        </section>
-    </main>
+
+  <main>
+    <button class="btn-flotante" aria-label="Abrir menú de navegación" aria-expanded="false" onclick="toggleMenu()"
+      id="menuToggle">
+      <img src="images/favicon.ico" alt="" role="presentation" />
+    </button>
+
+    <nav id="dropdownMenu" class="dropdown-content" aria-label="Menú principal">
+      <a href="index.html">Inicio</a>
+      <a href="galeria.html">Galería</a>
+      <a href="personajes.html">Personajes</a>
+      <a href="enlaces.html">Enlaces</a>
+    </nav>
+
+    <script>
+      function abrirImagen(src) {
+        window.open(src, "_blank");
+      }
+    </script>
+
+    <section class="gallery" aria-label="Galería de imágenes de Evangelion">
+      <img src="images/end-of-evangelion.webp" alt="Escena de la película The End of Evangelion"
+        onclick="abrirImagen(this.src)" />
+      <img src="images/3qkmuyvnlbr91.webp" alt="Representación del Tercer Impacto" onclick="abrirImagen(this.src)" />
+      <img src="images/maxresdefault.webp" alt="Unidades EVA en combate" onclick="abrirImagen(this.src)" />
+      <img src="images/evangelion.webp" alt="Rei Ayanami y el Tercer Impacto" onclick="abrirImagen(this.src)" />
+      <img src="images/wnHcq5W.webp" alt="Escena de Evangelion 3.0" onclick="abrirImagen(this.src)" />
+      <img src="images/neon-genesis-evangelion-unit-01-eats-zeruel.webp" alt="Unidad EVA-01 en estado despierto"
+        onclick="abrirImagen(this.src)" />
+      <img src="images/1_gjX4Sh1uOqS2atQZ1HlBMA.webp" alt="Rei en su forma angelical" onclick="abrirImagen(this.src)" />
+      <img src="images/images-w330.webp" alt="Shinji en crisis emocional" onclick="abrirImagen(this.src)" />
+      <img src="images/eva-02-1920-x-1080-wallpaper-8fuu29l8frb0j7td.webp" alt="Asuka en combate con EVA-02"
+        onclick="abrirImagen(this.src)" />
+      <img src="images/rei-eva-00.webp" alt="Rei Ayanami en su EVA-00" onclick="abrirImagen(this.src)" />
+      <img src="images/neonartwork.webp" alt="Arte del manga de Evangelion" onclick="abrirImagen(this.src)" />
+      <img src="images/images.webp" alt="Unidad EVA-01 en contención" onclick="abrirImagen(this.src)" />
+      <img src="images/Neon-Genesis-Evangelion-A-World-That-s-Ending-Shinji.webp" alt="Shinji Ikari en introspección"
+        onclick="abrirImagen(this.src)" />
+      <img src="images/EoE.webp" alt="Shinji experimentando angustia psicológica" onclick="abrirImagen(this.src)" />
+      <img src="images/102699881_117250603349129_3919520484026317621_n.webp"
+        alt="Rei en forma angelical junto al EVA-01" onclick="abrirImagen(this.src)" />
+      <img src="images/Neon-Genesis-Evangelion-The-End-of-Evangelion-Mass-Production-Units.webp"
+        alt="EVA de producción masiva con lanza" onclick="abrirImagen(this.src)" />
+      <img src="images/Screen-Shot-2020-10-25-at-11.56.51-PM-e1699887322445.webp" alt="Unidad EVA-01 emergiendo de Rei"
+        onclick="abrirImagen(this.src)" />
+      <img src="images/Gendo-Ikari-1.webp" alt="Gendo Ikari observando en silencio" onclick="abrirImagen(this.src)" />
+      <img src="images/7jv5j7xwxqh71.webp" alt="Gendo Ikari transformado en forma angelical"
+        onclick="abrirImagen(this.src)" />
+      <img src="images/kaworu-1.webp" alt="Kaworu Nagisa mirando al espectador" onclick="abrirImagen(this.src)" />
+      <img src="images/lilith_rebuild.webp" alt="Lilith, el primer ángel" onclick="abrirImagen(this.src)" />
+      <img src="images/Fogata_en_La_playa.webp" alt="Paisaje post-apocalíptico al atardecer"
+        onclick="abrirImagen(this.src)" />
+      <img src="images/Kaworu.webp" alt="Escena de cercanía entre Kaworu y Shinji" onclick="abrirImagen(this.src)" />
+      <img src="images/Kaworu_Nagisa_Gallery.webp" alt="Rei apareciendo como proyección en Kaworu"
+        onclick="abrirImagen(this.src)" />
+      <img src="images/shinji(chihuahua).webp" alt="Parodia de Shinji en forma de chihuahua"
+        onclick="abrirImagen(this.src)" />
+    </section>
+  </main>
 </body>
+
 </html>
