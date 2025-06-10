@@ -164,3 +164,21 @@ body.overlay-active::after {
     font-size: 14px;
   }
 }
+.gallery button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.gallery button:focus {
+  outline: 2px solid #fff;
+  outline-offset: 4px;
+}
+
+.gallery button img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

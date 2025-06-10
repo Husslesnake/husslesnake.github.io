@@ -31,10 +31,8 @@
     </div>
   </header>
 
-
   <main>
-    <button class="btn-flotante" aria-label="Abrir menú de navegación" aria-expanded="false" onclick="toggleMenu()"
-      id="menuToggle">
+    <button class="btn-flotante" aria-label="Abrir menú de navegación" aria-expanded="false" onclick="toggleMenu()" id="menuToggle">
       <img src="images/favicon.ico" alt="" role="presentation" />
     </button>
 
@@ -45,51 +43,90 @@
       <a href="enlaces.html">Enlaces</a>
     </nav>
 
-    <script>
-      function abrirImagen(src) {
-        window.open(src, "_blank");
-      }
-    </script>
-
     <section class="gallery" aria-label="Galería de imágenes de Evangelion">
-      <img src="images/end-of-evangelion.webp" alt="Escena de la película The End of Evangelion"
-        onclick="abrirImagen(this.src)" />
-      <img src="images/3qkmuyvnlbr91.webp" alt="Representación del Tercer Impacto" onclick="abrirImagen(this.src)" />
-      <img src="images/maxresdefault.webp" alt="Unidades EVA en combate" onclick="abrirImagen(this.src)" />
-      <img src="images/evangelion.webp" alt="Rei Ayanami y el Tercer Impacto" onclick="abrirImagen(this.src)" />
-      <img src="images/wnHcq5W.webp" alt="Escena de Evangelion 3.0" onclick="abrirImagen(this.src)" />
-      <img src="images/neon-genesis-evangelion-unit-01-eats-zeruel.webp" alt="Unidad EVA-01 en estado despierto"
-        onclick="abrirImagen(this.src)" />
-      <img src="images/1_gjX4Sh1uOqS2atQZ1HlBMA.webp" alt="Rei en su forma angelical" onclick="abrirImagen(this.src)" />
-      <img src="images/images-w330.webp" alt="Shinji en crisis emocional" onclick="abrirImagen(this.src)" />
-      <img src="images/eva-02-1920-x-1080-wallpaper-8fuu29l8frb0j7td.webp" alt="Asuka en combate con EVA-02"
-        onclick="abrirImagen(this.src)" />
-      <img src="images/rei-eva-00.webp" alt="Rei Ayanami en su EVA-00" onclick="abrirImagen(this.src)" />
-      <img src="images/neonartwork.webp" alt="Arte del manga de Evangelion" onclick="abrirImagen(this.src)" />
-      <img src="images/images.webp" alt="Unidad EVA-01 en contención" onclick="abrirImagen(this.src)" />
-      <img src="images/Neon-Genesis-Evangelion-A-World-That-s-Ending-Shinji.webp" alt="Shinji Ikari en introspección"
-        onclick="abrirImagen(this.src)" />
-      <img src="images/EoE.webp" alt="Shinji experimentando angustia psicológica" onclick="abrirImagen(this.src)" />
-      <img src="images/102699881_117250603349129_3919520484026317621_n.webp"
-        alt="Rei en forma angelical junto al EVA-01" onclick="abrirImagen(this.src)" />
-      <img src="images/Neon-Genesis-Evangelion-The-End-of-Evangelion-Mass-Production-Units.webp"
-        alt="EVA de producción masiva con lanza" onclick="abrirImagen(this.src)" />
-      <img src="images/Screen-Shot-2020-10-25-at-11.56.51-PM-e1699887322445.webp" alt="Unidad EVA-01 emergiendo de Rei"
-        onclick="abrirImagen(this.src)" />
-      <img src="images/Gendo-Ikari-1.webp" alt="Gendo Ikari observando en silencio" onclick="abrirImagen(this.src)" />
-      <img src="images/7jv5j7xwxqh71.webp" alt="Gendo Ikari transformado en forma angelical"
-        onclick="abrirImagen(this.src)" />
-      <img src="images/kaworu-1.webp" alt="Kaworu Nagisa mirando al espectador" onclick="abrirImagen(this.src)" />
-      <img src="images/lilith_rebuild.webp" alt="Lilith, el primer ángel" onclick="abrirImagen(this.src)" />
-      <img src="images/Fogata_en_La_playa.webp" alt="Paisaje post-apocalíptico al atardecer"
-        onclick="abrirImagen(this.src)" />
-      <img src="images/Kaworu.webp" alt="Escena de cercanía entre Kaworu y Shinji" onclick="abrirImagen(this.src)" />
-      <img src="images/Kaworu_Nagisa_Gallery.webp" alt="Rei apareciendo como proyección en Kaworu"
-        onclick="abrirImagen(this.src)" />
-      <img src="images/shinji(chihuahua).webp" alt="Parodia de Shinji en forma de chihuahua"
-        onclick="abrirImagen(this.src)" />
+      <button type="button" onclick="abrirImagen('images/end-of-evangelion.webp')" aria-label="Abrir imagen: Escena de la película The End of Evangelion">
+        <img src="images/end-of-evangelion.webp" alt="Escena de la película The End of Evangelion" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/3qkmuyvnlbr91.webp')" aria-label="Abrir imagen: Representación del Tercer Impacto">
+        <img src="images/3qkmuyvnlbr91.webp" alt="Representación del Tercer Impacto" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/maxresdefault.webp')" aria-label="Abrir imagen: Unidades EVA en combate">
+        <img src="images/maxresdefault.webp" alt="Unidades EVA en combate" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/evangelion.webp')" aria-label="Abrir imagen: Rei Ayanami y el Tercer Impacto">
+        <img src="images/evangelion.webp" alt="Rei Ayanami y el Tercer Impacto" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/wnHcq5W.webp')" aria-label="Abrir imagen: Escena de Evangelion 3.0">
+        <img src="images/wnHcq5W.webp" alt="Escena de Evangelion 3.0" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/neon-genesis-evangelion-unit-01-eats-zeruel.webp')" aria-label="Abrir imagen: Unidad EVA-01 en estado despierto">
+        <img src="images/neon-genesis-evangelion-unit-01-eats-zeruel.webp" alt="Unidad EVA-01 en estado despierto" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/1_gjX4Sh1uOqS2atQZ1HlBMA.webp')" aria-label="Abrir imagen: Rei en su forma angelical">
+        <img src="images/1_gjX4Sh1uOqS2atQZ1HlBMA.webp" alt="Rei en su forma angelical" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/images-w330.webp')" aria-label="Abrir imagen: Shinji en crisis emocional">
+        <img src="images/images-w330.webp" alt="Shinji en crisis emocional" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/eva-02-1920-x-1080-wallpaper-8fuu29l8frb0j7td.webp')" aria-label="Abrir imagen: Asuka en combate con EVA-02">
+        <img src="images/eva-02-1920-x-1080-wallpaper-8fuu29l8frb0j7td.webp" alt="Asuka en combate con EVA-02" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/rei-eva-00.webp')" aria-label="Abrir imagen: Rei Ayanami en su EVA-00">
+        <img src="images/rei-eva-00.webp" alt="Rei Ayanami en su EVA-00" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/neonartwork.webp')" aria-label="Abrir imagen: Arte del manga de Evangelion">
+        <img src="images/neonartwork.webp" alt="Arte del manga de Evangelion" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/images.webp')" aria-label="Abrir imagen: Unidad EVA-01 en contención">
+        <img src="images/images.webp" alt="Unidad EVA-01 en contención" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/Neon-Genesis-Evangelion-A-World-That-s-Ending-Shinji.webp')" aria-label="Abrir imagen: Shinji Ikari en introspección">
+        <img src="images/Neon-Genesis-Evangelion-A-World-That-s-Ending-Shinji.webp" alt="Shinji Ikari en introspección" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/EoE.webp')" aria-label="Abrir imagen: Shinji experimentando angustia psicológica">
+        <img src="images/EoE.webp" alt="Shinji experimentando angustia psicológica" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/102699881_117250603349129_3919520484026317621_n.webp')" aria-label="Abrir imagen: Rei en forma angelical junto al EVA-01">
+        <img src="images/102699881_117250603349129_3919520484026317621_n.webp" alt="Rei en forma angelical junto al EVA-01" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/Neon-Genesis-Evangelion-The-End-of-Evangelion-Mass-Production-Units.webp')" aria-label="Abrir imagen: EVA de producción masiva con lanza">
+        <img src="images/Neon-Genesis-Evangelion-The-End-of-Evangelion-Mass-Production-Units.webp" alt="EVA de producción masiva con lanza" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/Screen-Shot-2020-10-25-at-11.56.51-PM-e1699887322445.webp')" aria-label="Abrir imagen: Unidad EVA-01 emergiendo de Rei">
+        <img src="images/Screen-Shot-2020-10-25-at-11.56.51-PM-e1699887322445.webp" alt="Unidad EVA-01 emergiendo de Rei" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/Gendo-Ikari-1.webp')" aria-label="Abrir imagen: Gendo Ikari observando en silencio">
+        <img src="images/Gendo-Ikari-1.webp" alt="Gendo Ikari observando en silencio" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/7jv5j7xwxqh71.webp')" aria-label="Abrir imagen: Gendo Ikari transformado en forma angelical">
+        <img src="images/7jv5j7xwxqh71.webp" alt="Gendo Ikari transformado en forma angelical" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/kaworu-1.webp')" aria-label="Abrir imagen: Kaworu Nagisa mirando al espectador">
+        <img src="images/kaworu-1.webp" alt="Kaworu Nagisa mirando al espectador" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/lilith_rebuild.webp')" aria-label="Abrir imagen: Lilith, el primer ángel">
+        <img src="images/lilith_rebuild.webp" alt="Lilith, el primer ángel" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/Fogata_en_La_playa.webp')" aria-label="Abrir imagen: Paisaje post-apocalíptico al atardecer">
+        <img src="images/Fogata_en_La_playa.webp" alt="Paisaje post-apocalíptico al atardecer" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/Kaworu.webp')" aria-label="Abrir imagen: Escena de cercanía entre Kaworu y Shinji">
+        <img src="images/Kaworu.webp" alt="Escena de cercanía entre Kaworu y Shinji" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/Kaworu_Nagisa_Gallery.webp')" aria-label="Abrir imagen: Rei apareciendo como proyección en Kaworu">
+        <img src="images/Kaworu_Nagisa_Gallery.webp" alt="Rei apareciendo como proyección en Kaworu" />
+      </button>
+      <button type="button" onclick="abrirImagen('images/shinji(chihuahua).webp')" aria-label="Abrir imagen: Parodia de Shinji en forma de chihuahua">
+        <img src="images/shinji(chihuahua).webp" alt="Parodia de Shinji en forma de chihuahua" />
+      </button>
     </section>
   </main>
+
+  <script>
+    function abrirImagen(src) {
+      window.open(src, "_blank");
+    }
+  </script>
 </body>
 
 </html>
